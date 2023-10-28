@@ -1,0 +1,200 @@
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.header
+{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid silver;
+}
+
+.logo
+{
+    padding: 5px;
+}
+
+.menu-list
+{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-list li
+{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.menu-list li a
+{
+    text-decoration: none;
+}
+
+.register
+{
+    padding: 20px 0;
+}
+
+.register button
+{
+    padding: 10px 30px;
+    background-color: blue;
+    color: #fff;
+    border-color: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* HERO BANNER */
+
+.hero-banner
+{
+    background: blue;
+    text-align: center;
+    padding: 50px 500px;
+    height: 40vh;
+}
+
+/* .sup-background
+{
+    background-color: blue;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+} */
+
+.hero-banner h1
+{
+    font-size: 50px;
+    font-family: 'Krona One', sans-serif;
+    color: #fff;
+}
+
+.searchbar
+{
+    margin-bottom: 50px;
+}
+
+.search
+{
+    width: 500px;
+    height: 50px;
+    padding: 30px 20px;
+    background-color: #f2f2f2;
+    border: 1px solid silver;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.search-btn
+{
+    height: 60px;
+    padding: 10px 30px;
+    background-color: blue;
+    border: 1px solid #ffff;
+    color: #ffff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.image
+{
+    display: flex;
+}
+
+
+/* OFFER BENEFITS */
+
+.benefits-title
+{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+.benefits
+{
+    display: flex;
+    background-color: #f2f2f2;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.benefits h2
+{
+    padding: 20px;
+}
+
+.carts
+{
+
+    padding: 10px;
+}
+
+.cart-box
+{
+    width: 350px;
+    height: auto;
+    background: #fff;
+    padding: 10px;
+    margin: 20px;
+}
+
+.cart-box img
+{
+    width: inherit;
+    border: 1px solid #f2f2f2;
+}
+
+.cart-text
+{
+    padding: 30px;
+}
+
+.cart-link
+{
+    text-decoration: none;
+}
+
+.link-btn
+{
+    background-color: none;
+    border: 1px solid blue;
+    color: blue;
+    padding: 15px;
+}
+
+.image-text
+{
+    background-color: #fff;
+    padding: 100px 200px;
+}
+
+.box 
+{
+    display: flex;
+    justify-content: center;
+    padding: 0 150px;
+}
+
+.box img
+{    
+    width: 50%;
+    height: auto;
+}
+
+.box-text
+{
+    padding: 50px 50px;
+}
