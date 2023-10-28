@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     
     <script src="app.js" defer></script>
 
-    <title>Landing page</title>
+    <title>Des constructions simples et durables</title>
 </head>
 <body>
 
@@ -15,26 +16,25 @@
     
     <header class="header">
         <div class="logo">
-            <h1>CONTAINER</h1>
+            <a href="index.html">
+                <h1>CONTAINER</h1>
+            </a>
         </div>
 
         <div class="menu">
             <ul class="menu-list">
                 <li>
-                    <a href="#">Accueil</a>
+                    <a href="#search" class="menu-link active">Réserver</a>
                 </li>
                 
                 <li>
-                    <a href=""> Nos Services</a>
+                    <a href="#benefits" class="menu-link"> Bénéfices</a>
                 </li>
 
                 <li>
-                    <a href="">Prix</a>
+                    <a href="#offers" class="menu-link">Offres</a>
                 </li>
 
-                <li>
-                    <a href="">Contact</a>
-                </li>
                 
         </div>
 
@@ -42,29 +42,45 @@
 
     <!-- HERO BANNER -->
 
-    <section class="hero-banner">
+    <section class="hero-banner" id="search">
         <div class="sup-background"></div>
 
         <h1>Commandez des conteneurs solides pour vos maisons montables.</h1>
 
         <div class="searchbar">
-            <input type="search" name="search" id="" placeholder="Tapez une caractéristique" class="search">
-            <input type="submit" value="Rechercher" class="search-btn">
+            <input type="search" name="email" id="" placeholder="Entrez votre addresse e-mail" class="search">
+            <input type="submit" value="Je suis intéressé" class="search-btn">
         </div>
 
     </section>
 
     <!--OFFER BENEFITS -->
 
-    <div class="benefits-title">
-        <h2>Trois bénéfices incontournables des constructions en conteneurs</h2>
+    <div class="benefits-title" id="benefits">
+        <h2>3 bénéfices incontournables des constructions en conteneurs</h2>
     </div>
 
-    <section class="benefits">
+    <section class="benefits" >
+
+            <div class="cart-box">
+                    
+                <img src="./images/shipping-container.jpg" alt="">
+
+                <div class="cart-text">
+                    <h3>Pour des maisons facilent à construire</h3>
+
+                    <p>Les conteneurs facilotent vos projets de construction. En générale il faut un mois pour finir un porjet</p>
+                    
+                    <a href="#" class="cart-link">
+                        <button class="link-btn">Je suis intéressé</button>
+                    </a>
+                </div>
+
+            </div>
 
             <div class="cart-box">
             
-                <img src="./shippin-container2.jpg" alt="">
+                <img src="./images/Dalimard.png" alt="">
     
                 <div class="cart-text">
                     <h3>Pour des maisons facilent à construire</h3>
@@ -78,25 +94,10 @@
     
             </div>
     
-            <div class="cart-box">
-                
-                <img src="./shipping-container.jpg" alt="">
-    
-                <div class="cart-text">
-                    <h3>Pour des maisons facilent à construire</h3>
-    
-                    <p>Les conteneurs facilotent vos projets de construction. En générale il faut un mois pour finir un porjet</p>
-                    
-                    <a href="#" class="cart-link">
-                        <button class="link-btn">Je suis intéressé</button>
-                    </a>
-                </div>
-    
-            </div>
     
             <div class="cart-box">
                 
-                <img src="./shippin-container2.jpg" alt="">
+                <img src="./images/shippin-container2.jpg" alt="">
     
                 <div class="cart-text">
                     <h3>Pour des maisons facilent à construire</h3>
@@ -117,10 +118,10 @@
     <section class="image-text">
 
         <div class="box">
-            <img src="./pexels-kaique-rocha-379964.jpg" alt="">
+            <img src="./images/import.jpg" alt="">
 
             <div class="box-text">
-                <h3>Disponible dans plusieurs pays du monde selon votre localisation</h3>
+                <h2>Disponible dans plusieurs pays du monde selon votre localisation</h2>
 
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
@@ -134,7 +135,7 @@
 
     <!-- CONTAINER GALLERY -->
 
-    <section class="gallery">
+    <section class="gallery" id="offers">
 
         <div class="categories">
 
@@ -145,16 +146,19 @@
         </div>
 
         <div class="gallery-image">
-            <img class="pic" src="./shippin-container2.jpg" data-name="maison" alt="maison">
-            <img class="pic" src="./pexels-kaique-rocha-379964.jpg" data-name="conteneur" alt="conteneur">
-            <img class="pic" src="./shipping-container.jpg" data-name="maison" alt="maison">
-            <img class="pic" src="./pexels-kaique-rocha-379964.jpg" data-name="conteneur" alt="conteneur">
-            <img class="pic" src="./shipping-container.jpg" data-name="maison" alt="maison">
-            <img class="pic" src="./pexels-kaique-rocha-379964.jpg" data-name="conteneur" alt="conteneur">
+            <img class="pic" src="./images/cointain.jpg" data-name="conteneur" alt="conteneur">
+            <img class="pic" src="./images/conteneur transport.jpg" data-name="conteneur" alt="conteneur">
+            <img class="pic" src="./images/shipping-container.jpg" data-name="maison" alt="maison">
+            <img class="pic" src="./images/shippin-container2.jpg" data-name="maison" alt="maison">
+            <img class="pic" src="./images/metrix-container.jpg" data-name="conteneur" alt="conteneur">
+            <img class="pic" src="./images/shipping-container.jpg" data-name="maison" alt="maison">
 
         </div>
 
     </section>
 
+    <footer>
+        <p>Designed by <a href="">Régis Kala</a></p>
+    </footer>
 </body>
 </html>

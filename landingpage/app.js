@@ -1,9 +1,22 @@
+// Changer la couleur des liens du menu au click
+
+const menuList = document.querySelectorAll(".menu-list li");
+const menuLink = document.querySelectorAll(".menu-link");
+
+const selectLink = (e) => {
+    document.querySelector(".menu-link.active").classList.remove("active");
+    e.target.classList.add("active");
+
+    console.log(menuLink);
+}
+
+menuList.forEach(a => a.addEventListener("click", selectLink));
+
+
 // Selectionner les boutons du filtre et les images
 
 const categories = document.querySelectorAll('.categories button');
 const images = document.querySelectorAll('.gallery-image .pic');
-
-console.log(categories, images);
 
 // Definition de la fonction filtreCategorie
 const filtreCategorie = (e) => {

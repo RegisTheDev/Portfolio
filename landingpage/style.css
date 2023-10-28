@@ -30,14 +30,26 @@ input, button
 
 .header
 {
+    position: fixed;
     display: flex;
+    background: #fff;
     justify-content: space-around;
     border-bottom: 1px solid silver;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
 }
 
 .logo
 {
     padding: 10px;
+}
+
+.logo a
+{
+    text-decoration: none;
+    color: #000;
 }
 
 .logo h1
@@ -57,34 +69,28 @@ input, button
     font-size: 20px;
 }
 
-.menu-list li a
+.menu-link
 {
     text-decoration: none;
+    color: #000;
 }
 
-.register
+.menu-link.active
 {
-    padding: 20px 0;
+    color: blue;
 }
 
-.register button
-{
-    padding: 10px 30px;
-    background-color: blue;
-    color: #fff;
-    border-color: none;
-    font-size: 20px;
-    text-transform: uppercase;
-}
 
 /* HERO BANNER */
 
 .hero-banner
 {
-    background: blue;
+    position: relative;
+    background-image: url("./images/conteneur-au\(port.png");
     text-align: center;
     padding: 50px 500px;
     height: 40vh;
+    margin-top: 70px;
 }
 
 /* .sup-background
@@ -114,19 +120,29 @@ input, button
     width: 500px;
     height: 50px;
     padding: 30px 20px;
-    background-color: #f2f2f2;
-    border: 1px solid silver;
+    background-color: #fff;
+    border: 1px solid #fff;
     font-size: 20px;
     text-transform: uppercase;
 }
 
 .search-btn
 {
-    height: 60px;
+    height: 62px;
     padding: 10px 30px;
-    background-color: blue;
+    background-color: transparent;
     border: 1px solid #ffff;
     color: #ffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.search-btn:hover
+{
+    background-color: blue;
+    border: 1px solid #fff;
+    color: #fff;
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -193,9 +209,18 @@ input, button
 
 .link-btn
 {
-    background-color: none;
+    background-color: #fff;
     border: 1px solid blue;
     color: blue;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.link-btn:hover
+{
+    background-color: blue;
+    border: 1px solid blue;
+    color: #fff;
     padding: 15px;
 }
 
@@ -240,6 +265,15 @@ input, button
     cursor: pointer;
 }
 
+.categories button:hover
+{
+    background: #fff;
+    color: blue;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+
 .categories button.active
 {
     background: #fff;
@@ -273,4 +307,19 @@ input, button
 .pic.hide
 {
     display: none;
+}
+
+footer
+{
+    background-color: #272727;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    color: #fff;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: yellow;
 }
