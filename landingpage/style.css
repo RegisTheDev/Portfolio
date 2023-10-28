@@ -198,3 +198,55 @@ body
 {
     padding: 50px 50px;
 }
+
+/* CONTAINER GALLERY */
+
+.categories
+{
+    padding:0 50px;
+}
+
+.categories button
+{
+    margin: 10px;
+    padding: 20px 30px;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.categories button.active
+{
+    background: #fff;
+    color: blue;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.gallery
+{
+    background: blue;
+    padding: 100px 250px;
+    justify-content: center;
+}
+
+.gallery-image
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
+
+.gallery-image img
+{
+    width: 400px;
+    height: auto;
+    margin: 5px;
+}
+
+.pic.hide
+{
+    display: none;
+}
