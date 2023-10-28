@@ -1,10 +1,29 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
 body
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+
+h1,h2,h3
+{
+    font-family: 'Krona One', sans-serif;
+}
+
+p
+{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+input, button
+{
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
 }
 
 /* HEADER */
@@ -18,7 +37,12 @@ body
 
 .logo
 {
-    padding: 5px;
+    padding: 10px;
+}
+
+.logo h1
+{
+    font-size: 25px;
 }
 
 .menu-list
@@ -75,7 +99,7 @@ body
 
 .hero-banner h1
 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Krona One', sans-serif;
     color: #fff;
 }
