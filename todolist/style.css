@@ -54,12 +54,13 @@ body
     font-size: 18px;
     font-weight: bold;
     color: #fff;
+    cursor: pointer;
 }
 
 .buttons
 {
     padding: 15px;
-    margin-left: -18.5%;
+    margin-left: -17%;
 }
 
 .buttons button
@@ -72,6 +73,14 @@ body
     font-family: 'Kanit', sans-serif;
     font-size: 18px;
     font-weight: bold;
+}
+
+.buttons button:hover
+{
+    background: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    cursor: pointer;
 }
 
 .buttons .active
@@ -112,7 +121,14 @@ body
 {
     background: red;
     border: 1px solid red;
-    padding: 15px;
-    margin: 5px;
+    padding: 10px;
+    margin: 8px;
     color: #fff;
+    cursor: pointer;
+}
+
+.trash-icon button i
+{
+    color: #fff;
+    font-size: 18px;
 }
