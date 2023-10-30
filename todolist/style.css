@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+}
+
+.todolist
+{
+    background-color: #000;
+    margin: 0;
+    padding: 100px 50px;
+    text-align: center;
+    height: 100vh;
+}
+
+.head-text h1
+{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 35px;
+    padding: 0;
+}
+
+.input-task
+{
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.input-task input
+{
+    background-color: #222222;
+    border: 1px solid rgb(65, 65, 65);
+    width: 500px;
+    padding: 15px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.input-task button
+{
+    background-color: #03C988;
+    border: 1px solid #03C988;
+    padding: 15px;
+    font-family: 'Kanit', sans-serif;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buttons
+{
+    padding: 15px;
+    margin-left: -17%;
+}
+
+.buttons button
+{
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 10px;
+    padding: 5px 30px;
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.buttons button:hover
+{
+    background: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.buttons .active
+{
+    background-color: #03C988;
+    border: 1px solid #03C988;
+}
+
+.tasks-list
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    border: 1px solid #222222;
+    max-width: 670px;
+    padding: 0 10px;
+    margin: 10px 30px;
+    transform: translateX(72.5%);
+}
+
+.task 
+{
+    display: flex;
+    margin: 0 5px;
+}
+
+.task input
+{
+    cursor: pointer;
+}
+
+.task input:hover
+{
+   border-color: #03C988;
+}
+
+.task p
+{
+    padding: 15px;
+}
+
+.trash-icon
+{
+    padding: 15px;
+}
+
+.trash-icon button
+{
+    background: #D80032;
+    border: 1px solid #D80032;
+    padding: 10px;
+    margin: 8px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.trash-icon button i
+{
+    color: #fff;
+    font-size: 18px;
+}
