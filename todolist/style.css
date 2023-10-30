@@ -22,7 +22,7 @@ body
 .head-text h1
 {
     font-family: 'Paytone One', sans-serif;
-    font-size: 50px;
+    font-size: 35px;
     padding: 0;
 }
 
@@ -46,8 +46,8 @@ body
 
 .input-task button
 {
-    background-color: green;
-    border: 1px solid green;
+    background-color: #03C988;
+    border: 1px solid #03C988;
     padding: 15px;
     font-family: 'Kanit', sans-serif;
     width: 150px;
@@ -85,8 +85,8 @@ body
 
 .buttons .active
 {
-    background-color: green;
-    border: 1px solid green;
+    background-color: #03C988;
+    border: 1px solid #03C988;
 }
 
 .tasks-list
@@ -107,6 +107,16 @@ body
     margin: 0 5px;
 }
 
+.task input
+{
+    cursor: pointer;
+}
+
+.task input:hover
+{
+   border-color: #03C988;
+}
+
 .task p
 {
     padding: 15px;
@@ -119,8 +129,8 @@ body
 
 .trash-icon button
 {
-    background: red;
-    border: 1px solid red;
+    background: #D80032;
+    border: 1px solid #D80032;
     padding: 10px;
     margin: 8px;
     color: #fff;
