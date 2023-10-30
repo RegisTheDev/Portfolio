@@ -12,28 +12,37 @@
 </head>
 <body>
     <section class="todolist">
-        <div class="head-text">
-            <h1>Arrivez au bout de vos tâches</h1>
-        </div>
 
-        <div class="input-task">
-            <form action="#" method="post">
-                <input type="text" name="task" id="task" placeholder="Entrez votre tâche">
-                <button type="submit">Ajouter</button>
-            </form>
-        </div>
-
-        <div class="tasks-list">
-
-            <div class="task">
-                <p>Task name or task description</p>
-
-                <div class="icons">
-                    
+                <div class="head-text">
+                    <h1>Arrivez au bout de vos tâches</h1>
                 </div>
-            </div>
 
-        </div>
+                <div class="input-task">
+                    <form action="#" method="post">
+                        <input type="text" name="task" id="task" placeholder="Entrez votre tâche">
+                        <button type="submit">Ajouter</button>
+                    </form>
+                </div>
+
+                <div class="buttons">
+                    <button class="active">Tout</button>
+                    <button>A faire</button>
+                    <button>Finies</button>
+                </div>
+
+                <div class="tasks-list">
+
+                    <div class="task">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <p>Task name or task description</p>
+                    </div>
+
+                        <div class="trash-icon">
+                            <button>Suppr.</button>
+                        </div>
+
+                </div>
+
     </section>
 </body>
 </html>
