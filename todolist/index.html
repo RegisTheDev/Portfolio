@@ -14,14 +14,18 @@
 <body>
     <section class="todolist">
 
+                <!-- ENTRY TEXT -->
+
                 <div class="head-text">
                     <h1>Arrivez au bout de vos tâches</h1>
                 </div>
 
+                <!-- TASK INPUT FORM -->
+
                 <div class="input-task">
                     <form action="#" method="post">
-                        <input type="text" name="task" id="task" placeholder="Entrez votre tâche">
-                        <button type="submit">Ajouter</button>
+                        <input type="text" name="task" id="inputTask" placeholder="Entrez votre tâche" required>
+                        <button type="button" id="addTaskBtn">Ajouter</button>
                     </form>
                 </div>
 
@@ -31,19 +35,13 @@
                     <button>Achevées</button>
                 </div>
 
-                <div class="tasks-list">
+                <!-- TASKS LIST -->
 
-                    <div class="task">
-                        <input type="checkbox" name="checkbox" id="checkbox">
-                        <p>Task name or task description</p>
-                    </div>
+                <ul class="tasks">
 
-                        <div class="trash-icon">
-                            <button><i class="fa-solid fa-trash-can"></i></button>
-                        </div>
+                </ul>
 
-                </div>
-
+               
     </section>
 </body>
 </html>

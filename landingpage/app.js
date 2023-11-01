@@ -6,8 +6,6 @@ const menuLink = document.querySelectorAll(".menu-link");
 const selectLink = (e) => {
     document.querySelector(".menu-link.active").classList.remove("active");
     e.target.classList.add("active");
-
-    console.log(menuLink);
 }
 
 menuList.forEach(a => a.addEventListener("click", selectLink));

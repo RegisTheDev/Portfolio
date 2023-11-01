@@ -57,6 +57,12 @@ body
     cursor: pointer;
 }
 
+.input-task button:hover
+{
+    background-color: #019a67;
+    border: 1px solid #019a67;
+}
+
 .buttons
 {
     padding: 15px;
@@ -87,6 +93,12 @@ body
 {
     background-color: #03C988;
     border: 1px solid #03C988;
+}
+
+.tasks
+{
+    margin: 0;
+    margin-left: -40px;
 }
 
 .tasks-list
@@ -136,6 +148,13 @@ body
     color: #fff;
     cursor: pointer;
 }
+
+.trash-icon button:hover
+{
+    background: red;
+    border: 1px solid red;
+}
+
 
 .trash-icon button i
 {
